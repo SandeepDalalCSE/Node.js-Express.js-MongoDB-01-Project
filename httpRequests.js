@@ -3,6 +3,7 @@
 const http = require("http");
 // creating a server
 const server = http.createServer((request, response) => {
+  response.setHeader("Content-Type", "text/html"); // here we are setting header to the response.
   response.write("this is this demo response");
   response.end();
 });
