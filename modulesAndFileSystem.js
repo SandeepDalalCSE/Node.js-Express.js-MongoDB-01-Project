@@ -8,3 +8,11 @@ fs.writeFile("user-data.txt", "userName = Sandeep Dalal", err => {
     console.log("wrote to file!");
   }
 });
+
+fs.readFile("user-data.txt", (error, data) => {
+  if (error) {
+    console.log(error);
+    return;
+  }
+  console.log(data.toString());
+});
