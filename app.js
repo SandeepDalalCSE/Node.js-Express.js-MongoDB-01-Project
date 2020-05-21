@@ -29,7 +29,10 @@ app.use((req, res, next) => {
 // Please note here order matters for execution of middleware.
 app.use((req, res, next) => {
   const userName = req.body.username || "Unknown User";
-  res.send(`<h1> Hi ${userName}</h1><form method="POST" action="/"><input name="username"><button type="submit">SUBMIT</button></form>`);
+  res.render("index", {
+    user: userName
+  });
+  //   res.send(`<h1> Hi ${userName}</h1><form method="POST" action="/"><input name="username"><button type="submit">SUBMIT</button></form>`);
   //   res.send("<h1>Hello World</h1>");
 });
 app.listen(3000); // this sets the node server behind the scenes on port 3000
