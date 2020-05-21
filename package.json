@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project/issues"
   },
-  "homepage": "https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project#readme"
+  "homepage": "https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
