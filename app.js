@@ -4,6 +4,8 @@ const express = require("express");
 // Instead of manually parsing the body of request and response, with Express.js we can use a middleware that does this body parsing for us.
 // there are third-party packages which can be integrated into this Express middleware flow that do that for us and the very popular package
 // for parsing the request body and adding it to the request object,so adding the parsed body to the request object is the 'body-parser package'.
+// importing body-parser package
+const bodyParser = require("body-parser");
 
 const app = express(); // creating app object as a express function, which of have lot of features and functions provided by express
 // it is important how express.js works
