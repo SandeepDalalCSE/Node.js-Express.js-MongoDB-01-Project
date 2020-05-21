@@ -12,3 +12,5 @@ server.listen(3000);
 
 // Note: doing data parsing and response generations is tough when you deal with large applications.
 // We will be using Express.js framework which will make work easy with server/s that will "listen" for any input/connection requests from clients.
+// Steps to install Express.js
+// 1. First we need to turn our project into npm project. Open terminal and run command as 'npm init'
