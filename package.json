@@ -1,0 +1,19 @@
+{
+  "name": "node.js-express.js-mongodb-01-project",
+  "version": "1.0.0",
+  "description": "Turning into npm project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project.git"
+  },
+  "author": "Sandeep Dalal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project/issues"
+  },
+  "homepage": "https://github.com/SandeepDalal1995/Node.js-Express.js-MongoDB-01-Project#readme"
+}
