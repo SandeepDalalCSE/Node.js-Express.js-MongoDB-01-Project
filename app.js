@@ -8,6 +8,11 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express(); // creating app object as a express function, which of have lot of features and functions provided by express
+
+// now we need to tell Express.js, which supports such templating engines as they are called, that we want to use this templating engine
+app.set("view engine", "ejs"); // and we do tell Express us if we want to do that by calling the set method on the app object which allows us to set up some global options and there we want to set the view engine.
+app.set("views", "views"); // then we also tell Express.js where it finds our views and for that we add a views setting and point at the folder that holds our view files and in my case, that's will be views
+
 // it is important how express.js works
 //  It's a middleware-driven framework, It means that in the end Express is all about funneling the incoming request through a bunch of different
 //  functions which all received the request and all can do something with it and each function can either stop the request and send back a response,
